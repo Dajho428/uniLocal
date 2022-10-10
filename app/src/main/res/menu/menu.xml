@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navMisNegocios"
+            android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+            android:title="@string/txt_mis_lugares" />
+        <item
+            android:id="@+id/navFavoritos"
+            android:icon="@drawable/ic_baseline_favorite_24"
+            android:title="@string/txt_favoritos" />
+    </group>
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+    </group>
+
+</menu>
